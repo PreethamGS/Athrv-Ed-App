@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/allbg"
+    android:orientation="vertical"
+    tools:context=".Main7Activity" >
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/bar_layout" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="coremembers"
+        app:cardBackgroundColor="@android:color/holo_orange_light">
+
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="25dp"
+            app:srcCompat="@drawable/committee2" />
+
+        <TextView
+            android:id="@+id/textView14"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140sp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="20dp"
+
+            android:layout_marginBottom="40dp"
+            android:layout_weight="1"
+            android:text="Core members"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp" />
+
+  </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="projects"
+        app:cardBackgroundColor="@android:color/holo_red_light">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="@android:color/holo_purple"
+            app:srcCompat="@drawable/projects" />
+
+        <TextView
+            android:id="@+id/textView1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150sp"
+            android:layout_marginTop="60dp"
+
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Projects"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="154dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginBottom="60dp"
+        android:onClick="workshops"
+        app:cardBackgroundColor="@android:color/holo_green_dark">
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="25dp"
+            app:srcCompat="@drawable/workshops" />
+
+        <TextView
+            android:id="@+id/textView16"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150sp"
+            android:layout_marginTop="60dp"
+
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:text="Workshops"
+            android:textColor="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textColorLink="@android:color/black"
+            android:textSize="24sp" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

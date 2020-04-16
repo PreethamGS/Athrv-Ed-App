@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "909284453262",
+    "firebase_url": "https://athrved.firebaseio.com",
+    "project_id": "athrved",
+    "storage_bucket": "athrved.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909284453262:android:37783ea5f0b0b29fa812df",
+        "android_client_info": {
+          "package_name": "com.example.athrved"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "909284453262-lcv0p19lo0o3orbpo118l9h4ov4vthmj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.athrved",
+            "certificate_hash": "67360b2d9af24ccc9926ab0e0749404ee9c09cb2"
+          }
+        },
+        {
+          "client_id": "909284453262-ibufvlr3vbrpqhhcg32poqfrcshu02b6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Zm8Paf0w40cMBDcR4Nyp8nVu6s_8eeo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "909284453262-ibufvlr3vbrpqhhcg32poqfrcshu02b6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

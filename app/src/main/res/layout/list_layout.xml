@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/listViewArtists"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bgfinal1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/editText10"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/firstname22"
+
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/firstname22"
+
+        android:inputType="textPersonName"
+
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/editText11"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/firstname22"
+
+        android:hint="Last Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/firstname22"
+
+        android:inputType="textPersonName"
+
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/editText12"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/firstname22"
+
+        android:hint="College Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView3"
+
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/firstname22"
+
+        android:inputType="textPersonName"
+
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/firstname22"
+
+        android:hint="USN"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/firstname22"
+
+        android:inputType="textPersonName"
+
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/firstname22"
+
+        android:hint="Contact Number"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/firstname22"
+
+        android:inputType="textPersonName"
+
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/firstname22"
+
+        android:hint="Email Address"
+        android:inputType="textPersonName"
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="308dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/firstname22"
+
+        android:inputType="textPersonName"
+
+        android:paddingLeft="15dp"
+        android:textColor="@android:color/white"
+        android:textColorHighlight="@android:color/white"
+        android:textColorHint="@android:color/white"
+        android:textColorLink="@android:color/white"
+        android:textIsSelectable="false" />
+
+
+</LinearLayout>

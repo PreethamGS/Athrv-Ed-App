@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical"
+    tools:context=".Main10Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="20dp"
+                android:text="WORKSHOP EPISODE-1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="26sp" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="392dp"
+                android:layout_height="260dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/editText20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="This project aims at developing a system to identify health of the crops using aerial imagery by calculating NDVI-Normalised Differential Vegetation Index.During the internship tenure the team worked on extracting NDVI values from images captured through Raspberry Pi NOIR Camera.A Python program was developed to extract NIR (Near Infrared) and Red bands of the image.While parllelly the selection of components such as Carbon Fiber Frame,BLDC Motor,ESC,Flight Controller,etc,for the multirotor UAV was done."
+                android:textColor="@android:color/white"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="20dp"
+                android:text="WORKSHOP EPISODE-2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="26sp" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="392dp"
+                android:layout_height="260dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/holo_orange_light" />
+
+            <TextView
+                android:id="@+id/editText23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="32dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="This project aims at developing a system to identify health of the crops using aerial imagery by calculating NDVI-Normalised Differential Vegetation Index.During the internship tenure the team worked on extracting NDVI values from images captured through Raspberry Pi NOIR Camera.A Python program was developed to extract NIR (Near Infrared) and Red bands of the image.While parllelly the selection of components such as Carbon Fiber Frame,BLDC Motor,ESC,Flight Controller,etc,for the multirotor UAV was done."
+                android:textColor="@android:color/white"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="@android:color/white" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="20dp"
+                android:text="WORKSHOP EPISODE-3"
+                android:textColor="@color/colorPrimary"
+                android:textSize="26sp" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="392dp"
+                android:layout_height="260dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="0dp"
+                android:background="@android:color/holo_red_light" />
+
+            <TextView
+                android:id="@+id/editText26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="32dp"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:text="This project aims at developing a system to identify health of the crops using aerial imagery by calculating NDVI-Normalised Differential Vegetation Index.During the internship tenure the team worked on extracting NDVI values from images captured through Raspberry Pi NOIR Camera.A Python program was developed to extract NIR (Near Infrared) and Red bands of the image.While parllelly the selection of components such as Carbon Fiber Frame,BLDC Motor,ESC,Flight Controller,etc,for the multirotor UAV was done."
+                android:textColor="@android:color/white"
+                android:textColorHighlight="@android:color/white"
+                android:textColorHint="@android:color/white"
+                android:textColorLink="@android:color/white" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
